@@ -1,0 +1,98 @@
+.circulo {
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    border:1px double orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: orange;
+    position: relative;
+    top:-12px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.cuadro {
+    border:3px solid orange;
+    width: 20px;
+    height:30px;
+    background-color:#007ACC;
+    transition: 0.5s;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 0 15px 15px 0;
+    font-size: 0px;
+   
+}
+ .cuadro:hover {
+    font-size: 12px;
+    width:235px;
+    
+}
+.cuadro::after {
+    position: relative;
+    left: 50px;
+    top:-45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    content:"Volver a la pagina principal";
+}
+
+/* icono correo */
+
+.correo_circulo {
+    background-image: url(correo.png);
+    background-repeat: no-repeat;
+    background-position: 6px;
+    background-size: 38px;
+   /* border:1px double orange; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -3px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+.correo_cuadro {
+   /* border:3px solid orange; */
+    width: 20px;
+    height:45px;
+    background-color: #FF00FF;
+    transition: 0.5s;
+    position: absolute;
+    top: 81px;
+    left: 30px;
+    border-radius: 0 15px 15px 0;
+    font-size: 0px;
+   
+}
+ .correo_cuadro:hover {
+    font-size: 16px;
+    width:235px;
+    
+}
+.correo_cuadro::after {
+    position: relative;
+    left: 50px;
+    top: -38px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    content:"Envianos tu consulta";
+    
+}
+
+a {
+    padding:10px;
+    font-size: 1px;
+}
